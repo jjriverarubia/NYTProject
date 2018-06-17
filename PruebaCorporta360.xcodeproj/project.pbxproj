@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48ACD0AB91490E9585B666BC /* Pods_PruebaCorporta360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A4BEEFA4DF2CD9E7D166A7 /* Pods_PruebaCorporta360.framework */; };
+		E344F98720D58AE400A4C0AF /* ArticleSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E344F98620D58AE400A4C0AF /* ArticleSync.swift */; };
+		E344F98B20D5906700A4C0AF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E344F98A20D5906700A4C0AF /* ResultViewController.swift */; };
+		E344F98D20D591EB00A4C0AF /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E344F98C20D591EB00A4C0AF /* ArticleTableViewCell.swift */; };
+		E344F98F20D5A73F00A4C0AF /* WebResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E344F98E20D5A73F00A4C0AF /* WebResultViewController.swift */; };
+		E344F99220D5B2B400A4C0AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E344F99120D5B2B400A4C0AF /* Constants.swift */; };
 		E385C7CC20D55A48001FBDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C7CB20D55A48001FBDEB /* AppDelegate.swift */; };
-		E385C7CE20D55A48001FBDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C7CD20D55A48001FBDEB /* ViewController.swift */; };
 		E385C7D120D55A48001FBDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E385C7CF20D55A48001FBDEB /* Main.storyboard */; };
 		E385C7D320D55A51001FBDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E385C7D220D55A51001FBDEB /* Assets.xcassets */; };
 		E385C7D620D55A51001FBDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E385C7D420D55A51001FBDEB /* LaunchScreen.storyboard */; };
+		E385C7DF20D55B31001FBDEB /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C7DE20D55B31001FBDEB /* Article.swift */; };
+		E385C7E220D564C6001FBDEB /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C7E120D564C6001FBDEB /* FilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70866300DADA6E3E39E9486A /* Pods-PruebaCorporta360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaCorporta360.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaCorporta360/Pods-PruebaCorporta360.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A4BEEFA4DF2CD9E7D166A7 /* Pods_PruebaCorporta360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaCorporta360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FC315C6FFDA2171B3B88D7 /* Pods-PruebaCorporta360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaCorporta360.release.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaCorporta360/Pods-PruebaCorporta360.release.xcconfig"; sourceTree = "<group>"; };
+		E344F98620D58AE400A4C0AF /* ArticleSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSync.swift; sourceTree = "<group>"; };
+		E344F98A20D5906700A4C0AF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E344F98C20D591EB00A4C0AF /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		E344F98E20D5A73F00A4C0AF /* WebResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebResultViewController.swift; sourceTree = "<group>"; };
+		E344F99120D5B2B400A4C0AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E385C7C820D55A48001FBDEB /* PruebaCorporta360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaCorporta360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E385C7CB20D55A48001FBDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E385C7CD20D55A48001FBDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E385C7D020D55A48001FBDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E385C7D220D55A51001FBDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E385C7D520D55A51001FBDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E385C7D720D55A51001FBDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E385C7DE20D55B31001FBDEB /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		E385C7E120D564C6001FBDEB /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48ACD0AB91490E9585B666BC /* Pods_PruebaCorporta360.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EE0CBF50322B6643EF07BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4BEEFA4DF2CD9E7D166A7 /* Pods_PruebaCorporta360.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E344F99020D5B26500A4C0AF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E344F99120D5B2B400A4C0AF /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		E385C7BF20D55A47001FBDEB = {
 			isa = PBXGroup;
 			children = (
 				E385C7CA20D55A48001FBDEB /* PruebaCorporta360 */,
 				E385C7C920D55A48001FBDEB /* Products */,
+				F1C7A49495798ABAE94C218E /* Pods */,
+				0EE0CBF50322B6643EF07BCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,61 @@
 		E385C7CA20D55A48001FBDEB /* PruebaCorporta360 */ = {
 			isa = PBXGroup;
 			children = (
+				E385C7E420D57A61001FBDEB /* Network */,
+				E385C7DD20D55ACF001FBDEB /* Model */,
+				E385C7E020D5648F001FBDEB /* Controller */,
+				E385C7E320D56927001FBDEB /* Utils */,
 				E385C7CB20D55A48001FBDEB /* AppDelegate.swift */,
-				E385C7CD20D55A48001FBDEB /* ViewController.swift */,
 				E385C7CF20D55A48001FBDEB /* Main.storyboard */,
 				E385C7D220D55A51001FBDEB /* Assets.xcassets */,
 				E385C7D420D55A51001FBDEB /* LaunchScreen.storyboard */,
 				E385C7D720D55A51001FBDEB /* Info.plist */,
 			);
 			path = PruebaCorporta360;
+			sourceTree = "<group>";
+		};
+		E385C7DD20D55ACF001FBDEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E385C7DE20D55B31001FBDEB /* Article.swift */,
+				E344F98C20D591EB00A4C0AF /* ArticleTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E385C7E020D5648F001FBDEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E385C7E120D564C6001FBDEB /* FilterViewController.swift */,
+				E344F98A20D5906700A4C0AF /* ResultViewController.swift */,
+				E344F98E20D5A73F00A4C0AF /* WebResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E385C7E320D56927001FBDEB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E344F99020D5B26500A4C0AF /* Constants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E385C7E420D57A61001FBDEB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E344F98620D58AE400A4C0AF /* ArticleSync.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F1C7A49495798ABAE94C218E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70866300DADA6E3E39E9486A /* Pods-PruebaCorporta360.debug.xcconfig */,
+				D2FC315C6FFDA2171B3B88D7 /* Pods-PruebaCorporta360.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E385C7DA20D55A51001FBDEB /* Build configuration list for PBXNativeTarget "PruebaCorporta360" */;
 			buildPhases = (
+				A89F4530B545D1F2B0275238 /* [CP] Check Pods Manifest.lock */,
 				E385C7C420D55A48001FBDEB /* Sources */,
 				E385C7C520D55A48001FBDEB /* Frameworks */,
 				E385C7C620D55A48001FBDEB /* Resources */,
+				299E3912DB0388FF0B0912CE /* [CP] Embed Pods Frameworks */,
+				DC03B527F5364FD20A9B09A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +215,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		299E3912DB0388FF0B0912CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PruebaCorporta360/Pods-PruebaCorporta360-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PruebaCorporta360/Pods-PruebaCorporta360-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89F4530B545D1F2B0275238 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaCorporta360-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC03B527F5364FD20A9B09A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PruebaCorporta360/Pods-PruebaCorporta360-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E385C7C420D55A48001FBDEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E385C7CE20D55A48001FBDEB /* ViewController.swift in Sources */,
 				E385C7CC20D55A48001FBDEB /* AppDelegate.swift in Sources */,
+				E385C7E220D564C6001FBDEB /* FilterViewController.swift in Sources */,
+				E344F98720D58AE400A4C0AF /* ArticleSync.swift in Sources */,
+				E344F98F20D5A73F00A4C0AF /* WebResultViewController.swift in Sources */,
+				E385C7DF20D55B31001FBDEB /* Article.swift in Sources */,
+				E344F98D20D591EB00A4C0AF /* ArticleTableViewCell.swift in Sources */,
+				E344F98B20D5906700A4C0AF /* ResultViewController.swift in Sources */,
+				E344F99220D5B2B400A4C0AF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +425,13 @@
 		};
 		E385C7DB20D55A51001FBDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70866300DADA6E3E39E9486A /* Pods-PruebaCorporta360.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JW4HMER2R;
 				INFOPLIST_FILE = PruebaCorporta360/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,17 +439,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Prueba.PruebaCorporta360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E385C7DC20D55A51001FBDEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FC315C6FFDA2171B3B88D7 /* Pods-PruebaCorporta360.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JW4HMER2R;
 				INFOPLIST_FILE = PruebaCorporta360/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Prueba.PruebaCorporta360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
