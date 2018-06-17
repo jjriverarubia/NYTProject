@@ -12,7 +12,7 @@ struct Constants {
     
     //URLConstants
     static let urlBase = "https://api.nytimes.com/svc/mostpopular/v2/"
-    static let apiKey = "32534511931e4dc1b5627b6918ca0d6b"
+    static let apiKey = "[API-KEY]"
     
     //ViewController Constants
     static let filterViewConroller = "FilterViewConroller"
